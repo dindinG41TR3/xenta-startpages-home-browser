@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<title>Xenta OS - Free Software Distributions Linux Indonesia</title>
+<link rel="icon" type="image/png" href="favicon.png"/>
+<style type="text/css">
+/*
+Halaman Style
+Name		: Xenta OS Start Page
+Designer	: Dindin Hernawan
+URL			: http://www.xentaos.org/
+Email		: dindin_hernawan@yahoo.com
+License		: MIT License
+Based       : Lubuntu Start Page
+*/
+body {
+    background: #2f2f2f;
+    font-family: ubuntu, ubuntubeta, 'Bitstream Vera Sans', 'DejaVu Sans', Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 auto;
+}
+button::-moz-focus-inner {
+    /* fix buttons in FF */
+    border: 0;
+    padding: 0;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* Remove button margin in webkit */
+    button{
+        margin: 0;
+    }
+}   
+.acchide {
+    text-indent: -999em;
+    display: block;
+}
+.search-box {
+    width: 595px;
+    margin: 0 auto;
+    margin-top: 63px;
+}
+.xentaos-branding {
+    background: url('assets/logo.png') no-repeat;
+    background-position: 10px 6px;
+    background-color: #2f2f2f;
+    height: 117px;
+    border-radius: 0px;
+}
+.wrapper {
+    padding: 0;
+    border: 0px solid #eee;
+    border-top: 0;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapper h1 {
+    margin: 0;
+    padding: 0;
+}
+.logo a {
+    font-size: 1px;
+    display: block;
+    text-indent: -9999px;
+    background: url(assets/bar-startpage.png) no-repeat;
+    background-position: -10px -310px;
+    margin: 0;
+    padding: 0;
+    height: 38px;
+    width: 109px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.wrapper input {
+    /* allows styling in webkit */
+    -webkit-appearance: textfield;
+    display: inline-block;
+    vertical-align: top;
+    width: 384px;
+    height: 32px;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #AEA79F;
+}
+.inner {
+    display: inline-block;
+    margin: 65px auto 100px auto;
+}
+.inner form {
+    height: 32px;
+}
+.external-links {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.external-links li {
+    height: 40px;
+    display: inline-block;
+    text-align: left;
+    padding-top: 12px;
+    padding-left: 4px;
+    margin: 0 10px;
+}
+.external-links a {
+    text-decoration: none;
+    color: gray;
+    padding: 10px 10px 10px 44px;
+}
+.external-links a::after {
+    content: " ›";
+    font-size: 16px;
+}
+.external-links a:hover {
+    color: #0068C8;
+}
+.wiki-link {
+    background: url('assets/wiki.png') no-repeat;
+}
+
+.welcome-link {
+    background: url('assets/start.png') no-repeat;
+}
+ 
+.project-link {
+    background: url('assets/mailing.png') no-repeat;
+}
+.wiki-link {
+    background-position: 1px 1px;
+}
+.wiki-link:hover {
+    background-position: 1px 1px;
+}
+.welcome-link {
+    background-position: 1px 1px;
+}
+.welcome-link:hover {
+    background-position: 1px 1px;
+}
+.project-link {
+    background-position: 1px 1px;
+}
+.project-link:hover {
+    background-position: 1px 1px;
+}
+#sbtn {
+    margin: 0 3px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #4D90FE;
+    background: #4d90fe; /* Old browsers */
+    background: -moz-linear-gradient(top, #4d90fe 0%, #4787ed 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4d90fe), color-stop(100%,#4787ed)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #4d90fe 0%,#4787ed 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #4d90fe 0%,#4787ed 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #4d90fe 0%,#4787ed 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #4d90fe 0%,#4787ed 100%); /* W3C */
+    border: 1px solid #3079ED;
+    border-radius: 2px;
+    color: #FFFFFF;
+    -moz-user-select: none;
+    cursor: default;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    min-width: 54px;
+    padding: 0 8px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#sspan {
+    background: url(http://repository.xentaos.org/assets/bar-startpage.png) no-repeat;
+    background-position: -10px -692px;
+    vertical-align: top;
+    display: inline-block;
+    height: 17px;
+    margin: 5px 19px;
+    width: 14px;
+}
+</style>
+</head>
+<body>
+    <div class="search-box">
+        <div class="xentaos-branding"></div>
+        <div class="wrapper">
+            <div class="inner">
+                <h1 class="logo"><a href="http://www.google.com">Google</a></h1>
+                <form method="get" class="search-form" action="http://www.google.com/search" name="search">
+                    <input type="search" name="q" value="" x-webkit-speech id="sbi" /><!-- eliminate whitespace
+                    --><button id="sbtn" type="submit"><span id="sspan"></span><span class="acchide">Cerca</span></button>
+                    <input type="hidden" name="ie" value="UTF-8" />
+                    <input type="hidden" name="sa" value="Search" />
+                    <input type="hidden" name="channel" value="fe">
+                    <input title="search" type="hidden" name="hl" value="en" />
+                </form>
+            </div>
+        </div>
+        <ul class="external-links">
+            <li class="welcome-link"><a href="http://www.xentaos.org/search/label/Berita">Latest News</a></li>
+            <li class="wiki-link"><a href="http://wiki.xentaos.org/">Wiki Pages</a></li>
+            <li class="project-link"><a href="http://dev.xentaos.org/">Joined The Project</a></li>
+        </ul>
+    </div><!-- close search-box -->
+<script type="text/javascript">
+//<![CDATA[
+(function focus_search() {
+    function search_select(e) {
+        if(e.value.length > 0) {
+            e.select();
+        }
+        e.select();
+    }
+
+    sbi = document.getElementById('sbi');
+    sbi.focus();
+    search_select(sbi);
+})();
+//]]>
+</script>
+</body>
+</html>
